@@ -4,8 +4,8 @@
 
 # Site
 title: iByte
-subtitle: ''
-description: ''
+subtitle: 'SubTitle'
+description: 'Hafrans's Ibyte Blog'
 keywords: hafrans,ibytes,chuukaro,tech,k8s,java,golang
 author: Hafrans
 language: zh

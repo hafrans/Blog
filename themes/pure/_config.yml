@@ -5,7 +5,7 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  # Books: books   # 豆瓣书单
+  Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
 
@@ -38,7 +38,7 @@ site:
 
 # config
 config:
-  skin: theme-green # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: false # 是否开启当前菜单高亮显示
@@ -83,14 +83,14 @@ search:
 
 # Donate
 donate:
-  enable: false
+  enable: true
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
     title: 微信支付
   # 支付宝打赏
   alipay: 
-    qrcode: images/donate/alxipayimg.png 
+    qrcode: images/donate/alipayimg.png 
     title: 支付宝
 
 # Share
@@ -102,14 +102,14 @@ share:
 
 # Github
 github: 
-  username: hafrans  # github username
+  username: cofess  # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: disqus  # 启用哪种评论系统
-  disqus: ibytes-1 # enter disqus shortname here
+  type: valine  # 启用哪种评论系统
+  disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
   livere:
@@ -149,7 +149,7 @@ comment:
   # https://api.douban.com/v2/movie/subject/:id 单个电影信息
   # https://api.douban.com/v2/movie/search?q={text} 电影搜索
 douban:
-  user: Hafrans # 豆瓣用户名
+  user: # 豆瓣用户名
   start: 0 # 从哪一条记录开始
   count: 100 # 获取豆瓣书单数据条数
   apikey: # 豆瓣apikey
@@ -165,7 +165,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: true
+  enable: false
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -187,41 +187,51 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: Hafrans
-  author_title: A Lifelong Learner
-  author_description: Full Stack Developer, A Lifelong Learner.
-  location: Beijing, China
-  follow: https://github.com/hafrans
+  author: 昵称
+  author_title: Web Developer & Designer
+  author_description: 个人简介。
+  location: Shenzhen, China
+  follow: https://github.com/cofess
   # Social Links
   social:
     links:
-      github: https://github.com/hafrans
+      github: https://github.com/cofess
+      weibo: http://weibo.com/cofess
+      twitter: https://twitter.com/iwebued
+      # facebook: /
+      # dribbble: /
+      behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
-    Java: ★★★★★
-    Golang: ★★★★☆
-    Kubernetes: ★★★★☆
-    Javascript&Typescript: ★★★★★
-    HTML+CSS: ★★★★☆
-    PHP&Laravel: ★★★★☆
+    Git: ★★★☆☆
+    Gulp: ★★★☆☆
+    Javascript: ★★★☆☆
+    HTML+CSS: ★★★☆☆
+    Bootstrap: ★★★☆☆
+    ThinkPHP: ★★★☆☆
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/hafrans
-    Blog: http://ibytes.com
+    Github: https://github.com/cofess
+    Blog: http://blog.cofess.com
+    微博: http://weibo.com/cofess
+    花瓣: http://huaban.com/cofess
+    Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
-    - DevOps
-    - Java
-    - Linux
-    - NodeJs
+    - 前端
+    - 前端开发
+    - 前端重构
+    - Web前端
+    - 网页重构
   # My Personal Works
   works:
-    UJN OJ:
-      link: https://acm.ujn.edu.cn
-      date: 2016-2018
+    name:
+      link: http://www.example.com
+      date: 2016
   # My Personal Projects
   projects:
-    hafrans/tencent-meeting-sdk-golang: https://github.com/hafrans/tencent-meeting-sdk-golang
+    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure

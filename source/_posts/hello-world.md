@@ -1,11 +1,15 @@
 ---
-title: Hello World
+title: Hello World 网站正在建设中
+mathjax: true
+tags: A, B, C
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
 
-### Create a new post
+You can access the sample text by this link [LINK](/images/test.txt)
+
+### Create a new post222
 
 ``` bash
 $ hexo new "My New Post"

@@ -5,10 +5,10 @@
 # Site
 title: iByte
 subtitle: 'SubTitle'
-description: 'Hafrans's Ibyte Blog'
+description: Hafrans's Ibyte Blog
 keywords: hafrans,ibytes,chuukaro,tech,k8s,java,golang
 author: Hafrans
-language: zh
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -99,7 +99,27 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: pure
 
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+    - plugin:
+        name: markdown-it-mark
+        enable: false  
